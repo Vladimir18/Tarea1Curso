@@ -27,8 +27,8 @@
 }
 
 #lblHeaderDetalle {
-    width: 100%;
-    /*text-align: center;*/
+    width: 190px;
+    text-align: center;
     /*font-family: Arial;*/
     /*font-size: 18px;*/
     background-color: blue;
