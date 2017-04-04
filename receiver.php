@@ -11,7 +11,7 @@
         <table id="tableDetalle">
             <tr>
                 <!--class="colTableDetalle"-->
-                <td  colspan="3">  
+                <td  colspan="3">
                     <span id="lblHeaderDetalle">Detalle de empleado</span>
                 </td>
             </tr>
