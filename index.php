@@ -22,38 +22,38 @@ and open the template in the editor.
 
     <div id="divForm">
         <form method="post" action="receiver.php">
-            <table>
+            <table align="center">
                 <tr>
-                    <td class="colTable">
+                    <td class="colTable" colspan="3">
                         Código
                     </td>
-                    <td class="colTable">
+                    <td class="colTable" colspan="2">
                         <input type="text" name="codigo"/>
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="colTable">
+                    <td class="colTable" colspan="3">
                         Nombre
                     </td>
-                    <td class="colTable">
+                    <td class="colTable" colspan="2">
                         <input type="text" name="nombre" />
                     </td>
 
-                    <td class="colTable">
+                    <td class="colTable" colspan="2">
                         Apellidos
                     </td>
-                    <td class="colTable">
+                    <td class="colTable" colspan="2">
                         <input type="text" name="apellidos"/>
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="colTable">
+                    <td class="colTable" colspan="3">
                         Departamento
                     </td>
 
-                    <td class="colTable">
+                    <td class="colTable" colspan="2">
                         <select name="departamento">
                             <option value="1"> 1 </option>
                             <option value="2"> 2 </option>
@@ -63,13 +63,13 @@ and open the template in the editor.
                 </tr>
 
                 <tr>
-                    <td colspan="2" class="colTable">
+                    <td colspan="4" class="colTable">
                         <input type="checkbox" name="checboxEstado" value="Activo" />Activo
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="colTable">
+                    <td class="colTable" colspan="3">
                         <input type="submit" value="Aceptar" />
                     </td>
                 </tr>

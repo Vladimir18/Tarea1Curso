@@ -1,6 +1,5 @@
 #container {
     width: 80%;
-    align-content: center;
 }
 
 #divHead {
@@ -10,6 +9,7 @@
     height: 50px;
     background-color: blue;
     text-align: center;
+    vertical-align: center;
     font-size: 30px;
 }
 
@@ -17,13 +17,17 @@
     width: 100%;
     height: 550px;
 
+    align-content: center;
     background-color: #f9f6f9;
 }
 
 .colTable {
 
-    padding-top: 14px;
-    padding-left: 5em;
+    text-align: right;
+    /*padding-left: 4px;*/
+    padding: 6em;
+    /*padding-top: 14px;*/
+    /*padding-left: 5em;*/
 
 }
 
@@ -61,13 +65,13 @@
 
 #tableDetalle {
 
-
     border-left: 1px solid black;
-    border-spacing: 0px;
+    border-spacing: 0;
 }
 
 #divContainer {
 
+    display: table;
     margin: auto;
 
 }
