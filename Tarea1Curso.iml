@@ -5,27 +5,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHP" type="php">
-        <CLASSES>
-          <root url="file:///Applications/MAMP/bin/php/php5.6.27/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file:///Applications/MAMP/bin/php/php5.6.27/bin" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar:///Applications/MAMP/bin/php/php5.6.27/bin/phar.phar/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="phar:///Applications/MAMP/bin/php/php5.6.27/bin/phar.phar/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>

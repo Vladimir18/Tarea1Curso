@@ -1,11 +1,12 @@
 #container {
-   width: 80%;
+    width: 80%;
+    align-content: center;
 }
 
 #divHead {
     width: 100%;
     color: white;
-    
+
     height: 50px;
     background-color: blue;
     text-align: center;
@@ -15,27 +16,59 @@
 #divForm {
     width: 100%;
     height: 550px;
-    
+
     background-color: #f9f6f9;
 }
 
 .colTable {
-    
+
     padding-top: 14px;
     padding-left: 5em;
-    
+
 }
 
 #lblHeaderDetalle {
-    width: 190px;
     text-align: center;
     /*font-family: Arial;*/
     /*font-size: 18px;*/
-    background-color: blue;
+    background-color: lightskyblue;
+
+    padding: 4px;
+    border: 1px  solid black;
 }
 
-.colTableDetalle {
-    
-    border: 1px solid black;
+.colTblDetalle_1 {
+
+    width: 50%;
+    text-align: right;
+
+    padding: 4px;
+    border-bottom: 1px  solid black;
+    /*border-left: 1px solid black;*/
+    border-right: 1px solid black;
+}
+
+.colTblDetalle_2 {
+
+    width: 50%;
+    text-align: left;
+
+    padding: 4px;
+    border-bottom: 1px  solid black;
+    /*border-left: 1px solid black;*/
+    border-right: 1px solid black;
+}
+
+#tableDetalle {
+
+
+    border-left: 1px solid black;
+    border-spacing: 0px;
+}
+
+#divContainer {
+
+    margin: auto;
+
 }
 
